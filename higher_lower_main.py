@@ -6,7 +6,7 @@ data = data.data # Nested dictionary
 score = 0
 playing = True
 options = set()                                             # Here we get make a set which has all available options for users.
-                                                            #As we present a user for the game, we remove that user from the set
+                                                            # As we present a user for the game, we remove that user from the set
 for i in data:
     options.add(i)
 
